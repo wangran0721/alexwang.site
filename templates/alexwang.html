@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>小王同学的个人站</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Microsoft YaHei";
+            color: #2a2a2a;
+        }
+
+        .wrap {
+            margin: 0 auto;
+            padding: 20px;
+            max-width: 880px;
+            font-size: 20px;
+            line-height: 48px;
+        }
+
+        .t-r {
+            text-align: right;
+        }
+
+        .copyright {
+            font-size: 16px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            color: #ccc;
+            padding-bottom: 10px;
+        }
+
+        .copyright a {
+            color: #ccc;
+        }
+
+        table {
+            margin-left: 2em;
+        }
+
+        p {
+            text-indent: 2em;
+        }
+
+        @media screen and (max-width: 768px) {
+
+            .wrap {
+                margin: 0 auto;
+                padding: 20px;
+                font-size: 16px;
+                line-height: 38px;
+                word-break: break-all;
+            }
+
+            .copyright {
+                font-size: 12px;
+            }
+
+            table {
+                margin-left: 0;
+            }
+        }
+    </style>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?13d1748106859cff17352f69a8fa8457";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+<div align="center">
+    <img src="{{ url_for('static', filename='images/logo1.png') }}" width="2000" height="500">
+</div>
+<div class="wrap">
+    <h2>关于我：</h2>
+    <p>2017年毕业于大连理工大学，毕业后一直从事数据和后端开发相关工作。目前任职于Baidu</a>。
+    </p>
+    <h2>主营项目</h2>
+    <p>从事数据和后端开发没几年，修 BUG 无数，承接 python java hadoop storm shell php 等各类 BUG 修复工作。专业修 bug 24年。</p>
+
+    <h2>我的开源项目：</h2>
+    <!--<table>
+        <tr>
+            <td class="t-r" width="310">还没有，欢迎github先关注起来~</td>
+            <td><a href="https://github.com/wangran0721/" target="_blank">https://github.com/wangran0721/</a></td>
+        </tr>
+    </table>-->
+     <p>还没有，欢迎github先关注起来~</p>
+
+    <h2>人生信条</h2>
+    <p>#野蛮生长</p>
+    <p>#玩家心态</p>
+    <p>#知行合一</p>
+    <p>#伸手摘星，即使徒劳无功，也不致满手污泥</p>
+    <h2>联系我：</h2>
+    <table>
+        <tr>
+            <td class="t-r" width="80">GitHub：</td>
+            <td><a href="https://github.com/wangran0721/" target="_blank">https://github.com/wangran0721/</a></td>
+        </tr>
+        <tr>
+            <td class="t-r">QQ：</td>
+            <td>1260846272</td>
+        </tr>
+        <tr>
+            <td class="t-r">Tel：</td>
+            <td>18545154324</td>
+        </tr>
+    </table>
+</div>
+<!--<div class="copyright">© 20 alexwang.site &nbsp; <a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备14063771号-1</a>
+</div>-->
+</body>
+</html>
